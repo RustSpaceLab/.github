@@ -35,9 +35,9 @@ code for `thumbv7em-none-eabihf`.
 
 A socket, a definition, and a window. UDP, TCP or a file replay; CCSDS transfer frames with
 Reed-Solomon and the pseudo-randomiser; CSP; decoding through `xtce-rs`; and a live interface
-with plots that decimate to the pixel budget rather than to the ring. Under ten megabytes —
-9.48 MiB on macOS x86_64, 8.21 stripped, and the command that says so is in the README. No JVM,
-no Node, no database, no browser.
+with plots that decimate to the pixel budget rather than to the ring. One binary of 8.19 MiB
+stripped on macOS arm64 and 10.90 on Linux x86_64, measured by the workflow that builds the
+release and published in its notes. No JVM, no Node, no database, no browser.
 
 ## Why
 
